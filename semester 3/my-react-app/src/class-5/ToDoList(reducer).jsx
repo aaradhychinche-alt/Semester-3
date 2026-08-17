@@ -14,11 +14,11 @@ const ToDoList = () => {
               input:action.payload
 
             }
-          }else if (action.type=="add"){
+          }else if(action.type=="add"){
             return {
               list:[...state.list , state.input]
             }
-          }else if (action.type=="del"){
+          }else if(action.type=="del"){
               return{
                 ...state,
                 list : state.list.filter((_,id)=> id!==action.payload)

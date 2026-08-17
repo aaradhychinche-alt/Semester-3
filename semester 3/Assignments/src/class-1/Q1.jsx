@@ -6,8 +6,8 @@ const Q1 = () => {
     return (
         <div>
             <h3>Q1</h3>
-            <button onClick={() => { if (count < 10) setCount(count + 1) }}>Increase</button>
-            <button onClick={() => { if (count > 0) setCount(count - 1) }}>Decrease</button>
+            <button onClick={() => {if (count < 10) setCount(count + 1)}}>Increase</button>
+            <button onClick={() => {if (count > 0) setCount(count - 1)}}>Decrease</button>
             <p>Count: {count}</p>
         </div>
     )

@@ -35,7 +35,7 @@ let filtered = [];
 
     if (range === "0-100") {
         filtered = data.filter((item) => item.price >= 0 && item.price <= 100);
-    } else if (range === "100-400") {
+    }else if(range === "100-400") {
         filtered = data.filter((item) => item.price > 100 && item.price <= 400);
     }
 
