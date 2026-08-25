@@ -10,13 +10,30 @@ import ProductD from './class-4/ProdcutD'
 import UseReducerDemo from './class-5/UseReducerDemo'
 import ToDoList from './class-5/ToDoList(reducer)'
 import MemoDemo from './class-6/MemoDemo'
-import Assignments from './class-7/Assignments'
+import { useEffect } from 'react'
+import axios from 'axios'
+
 
 
 
 const App = () => {
+//  let [data,setData] =useState([])
+//  // backend  getting data from the personalised server 
+//  useEffect(()=>{
+//   async function api() {
+//     let res  = await axios.get('http://localhost:4000/')
 
- 
+//     console.log(res.data);
+//     setData(res.data)
+    
+//   }
+//   api()
+//   // fetch('http://localhost:4000/').then((res)=>{
+//   //   return res.json()
+//   // }).then((data)=>{console.log(data);}
+//   // )
+//  },[])
+
   return (
 
      <div>
@@ -44,8 +61,21 @@ const App = () => {
    {/* class-6 */}
    {/* <MemoDemo/> */}
 
-   {/* class-7 */}
-   <Assignments/>
+
+   {/* <Assignments/> */}
+
+   
+   {
+    // data.map((a)=>{
+    //   return (
+    //     <>
+    //     <h1>{a.id}</h1>
+    //     </>
+    //   )
+    // })
+   }
+
+  
     </div>
       
 

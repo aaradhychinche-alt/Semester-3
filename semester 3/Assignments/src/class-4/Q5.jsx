@@ -15,7 +15,7 @@ const Q5 = () => {
         <div>
             <h3>Q5</h3>
             <LikeCount likes={likes} />
-            <LikeButton handleLike={() => setLikes(likes + 1)} />
+            <LikeButton handleLike={() => setLikes(likes+1)} />
         </div>
     )
 }
